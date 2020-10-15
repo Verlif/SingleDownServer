@@ -1,0 +1,10 @@
+server:
+  port: 16508
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      enabled: true
+      maxFileSize: -1
+      maxRequestSize: -1
